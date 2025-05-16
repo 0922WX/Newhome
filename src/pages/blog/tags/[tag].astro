@@ -41,12 +41,12 @@ const { tag, blogposts } = Astro.props;
 
 <Layout
   title={`Blog: ${tag}`}
-  description={`Brutal Blog | All posts tagged with ${tag}`}
-  pageTitle={`Brutal Blog | Blogposts tagged with ${tag}`}
+  description={`Wx Blog | 所有包含标签 ${tag}的文章`}
+  pageTitle={`Wx Blog | 标签为 ${tag}的文章`}
 >
   <main class='p-6 bg-purple grid gap-4'>
     <div>
-      <Button href='/blog/'>&larr; Back to blog</Button>
+      <Button href='/blog/'>&larr; 返回</Button>
     </div>
     <BlogList posts={blogposts} />
   </main>

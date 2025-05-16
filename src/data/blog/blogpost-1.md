@@ -1,46 +1,29 @@
 ---
-title: Blogpost 1
-pubDate: 11/09/2022 14:25
-author: "Elian Van Cutsem"
+title: 五月小总结
+pubDate: 5/16/2025 18:29
+author: "Wangxiao"
 tags:
-  - JavaScript
-  - Astro
-  - UnoCSS
-imgUrl: '../../assets/astro.jpeg'
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+  - 日常
+imgUrl: '../../assets/kongque.jpg'
+description: 没想到2025年也快过半了。那就稍微总结一下这五个月我都做了什么吧。好坏与否，就是做出选择的因果。
 ---
 
-## Deorum petiit ignis
+## 一月份
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+那时还在杭州图软科技有限公司实习，正在写关于视频回放相关的需求，也是赶在放假前完成了它们。在图软认识了很多人，也是在现实里第一次见到这么多活的前端开发。但是这家公司，连实习生的工资都拖着发，让我丧失了很多信心。
 
-## Iovis late orbem Perseus sunt
+## 二月份
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+无忧无虑地渡过新年。那会正打算节后再找前端的岗位，所以抛开了所有技术相关的事情。现在想想，或许是我最无虑的一个新年。二月中旬返岗后，为了赶紧离职，加上我产生一些心理问题，我回到了安吉找了一份桌面运维的工作，想躺平摆烂。但是那时没有问清楚作息时间(单休)，让我在到岗的一瞬间萌生了离职的想法。不过当时最主要的想法是，安心在家附近上班，拿点补贴，以后的事以后再说。
 
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
+## 三月份
 
-## Longum minus sic saepe
+在博泰两山运营有限公司做桌面运维，每天录录车牌，调调监控，每周一要开烦人的例会。除此之外也没什么事做了。这里的项目经理不懂技术，但是热衷于捣鼓AI相关的东西。他们觉得AI可以替代很多岗位，我并不觉得这种看法是对的。只要你能运用AI，保持学习，岗位只会被不同的人替换罢了。在这期间也是空降了一个领导，‘王经理’。不过只干了两个星期就走人了。或许也是对这里没有信心吧。这片园区有政府牵头让博泰经营，但是定死了房租，周边园区直接把价格拉到低到发指的程度，成功让博泰园区从第一年的四十多家企业入驻变为如今的六家，令人感慨。这里的项目经理也把我弄得很烦了，一天到晚让我搞什么AI使用培训。所以我决定离职，于是我重新捡起了前端的知识，开始准备面试。
 
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
+## 四月份
 
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
+经过朋友的开导后，我也重整旗鼓。整个四月我都在投简历，大大小小也经过了六次面试。最后也是OC了一个，使我如愿回到了前端开发，而且是最贴合我技术栈的React。
 
-## Geminas namque quod referitur argenteus aderat superstes
+## 五月份
 
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+如愿进行前端开发，故事还在继续，奖池还在积累。。

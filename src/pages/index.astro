@@ -7,46 +7,38 @@ import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 
 const builtWith = [
-  { name: 'Astro', url: 'https://astro.build/' },
-  { name: 'UnoCSS', url: 'https://uno.antfu.me/' },
-  {
-    name: 'Content Collections',
-    url: 'https://docs.astro.build/en/guides/content-collections/',
-  },
-  { name: 'RSS', url: 'https://docs.astro.build/en/guides/rss/' },
-  {
-    name: 'Sitemap',
-    url: 'https://docs.astro.build/en/guides/integrations-guide/sitemap/',
-  },
-  { name: 'Vercel', url: 'https://vercel.com' },
-  { name: 'TypeScript', url: 'https://www.typescriptlang.org/' },
+  { name: '生活' },
+  { name: '前端'},
+  {name: '奇思妙想',},
+  { name: '灵感'},
+  {name: 'WebGL',},
+  { name: 'Game'},
 ];
 ---
 
 <Layout
   title='Home'
-  pageTitle='Brutal Theme | Home'
-  description='Brutal is a minimalistic, neobrutalism theme for Astro.'
+  pageTitle='WX的小站'
+  description='互联网某处的角落里.'
 >
   <main class='bg-pink p-6'>
     <MobileSocials />
     <section id='about' class='grid md:grid-cols-8 gap-8 mt-4'>
-      <h2 class='hidden'>About Brutal</h2>
+      <h2 class='hidden'>About</h2>
       <div class='col-span-4'>
         <Card>
           <div class='flex flex-col justify-between items-start gap-4'>
             <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
-              Brutal theme for <a
+             你似乎发现了<span
                 class='text-white'
-                target='_blank'
-                href='https://astro.build/'>Astro</a
+               >WX</span
               >
             </p>
             <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
-              A minimalistic, neobrutalism theme for Astro.
+              在互联网的某处痕迹
             </p>
             <Button target={'_self'} href='/blog/'>
-              Check out the blog &rarr;
+              稍微看看 &rarr;
             </Button>
           </div>
         </Card>
@@ -54,21 +46,18 @@ const builtWith = [
       <div class='col-span-2'>
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Brutal is built with
+            你可以在这里看到...
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
               builtWith.map((item) => (
                 <li>
                   <Pill>
-                    <a
+                    <span
                       class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
                     >
                       {item.name}
-                    </a>
+                    </span>
                   </Pill>
                 </li>
               ))
@@ -79,13 +68,12 @@ const builtWith = [
       <div class='col-span-2'>
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif'>
-            What is Brutal?
+            这是一个
           </h2>
           <p class='poppins'>
-            Brutal is a theme built with Astro, UnoCSS by <a
-              href='https://www.elian.codes/'>Elian</a
-            >. It's a simple, fast, and modern theme that is easy to use and
-            customize. Mainly meant to power blogs and personal websites.
+            记录想法变成现实过程的博客。老博客指路:<a title="前往majula" href="https://wxmajula.netlify.app/" target="_blank"
+            class="text-white"
+            >Majula</a>
           </p>
         </Card>
       </div>
