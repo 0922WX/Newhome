@@ -20,9 +20,10 @@ export async function getStaticPaths() {
 
   return Array.from(new Set(tags)).map((tag) => {
     return {
-      params: { tag },
+      params: { tag: encodeURIComponent(tag) },
       props: {
         tag,
+        rawTag: tag,
         blogposts: allPosts.filter((post) =>
           post.data.tags.map((tag) => tag.toLowerCase()).includes(tag)
         ),
@@ -33,10 +34,11 @@ export async function getStaticPaths() {
 
 interface Props {
   tag: string;
+  rawTag: string;
   blogposts: CollectionEntry<'blog'>[];
 }
-
-const { tag, blogposts } = Astro.props;
+const { rawTag, blogposts } = Astro.props;
+const tag = decodeURIComponent(rawTag);
 ---
 
 <Layout
