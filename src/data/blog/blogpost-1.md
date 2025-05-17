@@ -5,7 +5,7 @@ author: "Wangxiao"
 tags:
   - 日常
 imgUrl: '../../assets/kongque.jpg'
-description: 没想到2025年也快过半了。那就稍微总结一下这五个月我都做了什么吧。好坏与否，就是做出选择的因果。
+description: 没想到2025年也快过半了。那就稍微总结一下这五个月我都做了什么吧。结果好坏与否，都是自己的选择。
 ---
 
 ## 一月份
