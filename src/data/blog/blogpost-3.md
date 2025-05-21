@@ -4,7 +4,7 @@ pubDate: 5/21/2025 18:24
 author: "Wangxiao"
 tags:
   - 日常
-imgUrl: '../../assets/bird.jpg'
+imgUrl: '../../assets/bird.png'
 description: 阿巴阿巴，记录过程。
 ---
 
