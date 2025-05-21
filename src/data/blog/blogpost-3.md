@@ -38,4 +38,4 @@ export const getMedicalUserList = (data: any) =>{ajax({ url: "/v3/xx/getxx",para
 
 ## 总结
 
-主要还是axios那边配烂了，导致我一下午都在找bug。在我接手的这个项目里能看到先人的进步，从写大量全局状态管理用来配置接口参数和分页，到使用`useRequest()`，再到`usePagination()`，有种看人类进化的过程。
+主要还是axios那边配烂了，导致我一下午都在找bug。在我接手的这个项目里能看到先人的进步，从写大量全局状态管理用来配置接口参数和分页，到使用`useRequest()`，再到`usePagination()`，有种看人类进化的过程，，
